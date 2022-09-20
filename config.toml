@@ -1,10 +1,15 @@
 baseURL = "https://onlw.github.io/"
 languageCode = "en-us"
-title = "秋雨梧桐叶落时"
+title = "分24期买泡面🍜"
 theme = "kagome"
 paginate = 7
 copyright = "© 2021 <a href=\"\">kagome</a>."
 hasCJKLanguage = true
+
+# 设置categories
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
 
 # 作者信息
 [author]
@@ -41,28 +46,26 @@ hasCJKLanguage = true
   [[menu.social]]
     identifier = "github"
     name = "github"
-    url = "https://github.com/miiiku"
+    url = "https://github.com/onlw"
     weight = 1
   [[menu.social]]
     identifier = "twitter"
     name = "twitter"
-    url = "https://twitter.com/guanquanhong"
     weight = 2
   [[menu.social]]
     identifier = "instagram"
     name = "instagram"
-    url = "https://www.instagram.com/sukoshi_dayo/"
     weight = 3
-  [[menu.social]]
-    identifier = "weibo"
-    name = "weibo"
-    url = "https://weibo.com/u/5561168966"
-    weight = 4
-  [[menu.social]]
-    identifier = "zhihu"
-    name = "zhihu"
-    url = "https://www.zhihu.com/people/miku-84"
-    weight = 5
+#  [[menu.social]]
+#    identifier = "weibo"
+#    name = "weibo"
+#    url = "https://weibo.com/u/5561168966"
+#    weight = 4
+#  [[menu.social]]
+#    identifier = "zhihu"
+#    name = "zhihu"
+#    url = "https://www.zhihu.com/people/miku-84"
+#    weight = 5
 
 # URL格式
 [permalinks]
@@ -78,7 +81,7 @@ hasCJKLanguage = true
   # 国内备案号
   beian = ""
   # TOC目录出现字符长度限制
-  toc_show_len = 300
+  toc_show_len = 1
 
   [params.analytics]
     baidu = ""

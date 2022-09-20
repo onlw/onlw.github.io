@@ -2,6 +2,10 @@
 title: "Hugo Start"
 date: 2022-09-18T21:46:38+08:00
 draft: false
+cover: "https://images.pexels.com/photos/11126337/pexels-photo-11126337.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+toc: true
+categories: [doc]
+tags: [hugo]
 ---
 
 ## 安装hugo （mac）
